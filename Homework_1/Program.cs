@@ -21,7 +21,9 @@ internal class Program
         Console.Write("Please, type operation: ");
         operation = Convert.ToChar(Console.Read());
 
-       switch (operation)
+        //Task solution using switch:
+
+        switch (operation)
         {
             case '+':
                 result = firstNumber + secondNumber;
@@ -45,31 +47,31 @@ internal class Program
         }
 
 
-        //Using if-else:
+        //Task solution using if-else:
 
-     /*   if (operation == '+')
-        {
-            result = firstNumber + secondNumber;
-            Console.WriteLine(firstNumber + " + " + secondNumber + " = " + result);
-        }
-        else if (operation == '-')
-        {
-            result = firstNumber - secondNumber;
-            Console.WriteLine(firstNumber + " - " + secondNumber + " = " + result);
-        }
-        else if (operation == '*')
-        {
-            result = firstNumber * secondNumber;
-            Console.WriteLine(firstNumber + " * " + secondNumber + " = " + result);
-        }
-        else if (operation == '/')
-        {
-            result = firstNumber / secondNumber;
-            Console.WriteLine(firstNumber + " / " + secondNumber + " = " + result);
-        }
-        else
-        {
-            Console.WriteLine("Wrong operation!");
-        }*/
+        /*   if (operation == '+')
+           {
+               result = firstNumber + secondNumber;
+               Console.WriteLine(firstNumber + " + " + secondNumber + " = " + result);
+           }
+           else if (operation == '-')
+           {
+               result = firstNumber - secondNumber;
+               Console.WriteLine(firstNumber + " - " + secondNumber + " = " + result);
+           }
+           else if (operation == '*')
+           {
+               result = firstNumber * secondNumber;
+               Console.WriteLine(firstNumber + " * " + secondNumber + " = " + result);
+           }
+           else if (operation == '/')
+           {
+               result = firstNumber / secondNumber;
+               Console.WriteLine(firstNumber + " / " + secondNumber + " = " + result);
+           }
+           else
+           {
+               Console.WriteLine("Wrong operation!");
+           }*/
     }
 }
